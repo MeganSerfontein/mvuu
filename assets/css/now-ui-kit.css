@@ -5041,6 +5041,10 @@ p {
     padding-top: 30px;
 }
 
+.title2 {
+    font-weight: 700;
+}
+
 .title.title-up {
     text-transform: uppercase;
 }
@@ -6907,6 +6911,13 @@ Created using IcoMoon - icomoon.io
     text-align: center;
 }
 
+.info2 {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 40px 10px 10px;
+    text-align: center;
+}
+
 .info.info-hover .info-title {
     transition: color .4s;
 }
@@ -8412,6 +8423,16 @@ Created using IcoMoon - icomoon.io
     min-height: 350px;
     padding:30px;
     padding-top: 100px;
+}
+
+.card-background .card-body4 {
+    position: relative;
+    z-index: 2;
+    min-height: 300px;
+    max-width: 530px;
+    margin: 0 auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .card-background2 {
