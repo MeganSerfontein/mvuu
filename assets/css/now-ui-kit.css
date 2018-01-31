@@ -2598,7 +2598,7 @@ input.datetimepicker[data-color]+.bootstrap-datetimepicker-widget table thead tr
 }
 
 input.datetimepicker[data-color="orange"]+.bootstrap-datetimepicker-widget {
-    background-color: #f96332;
+    background-color: #c0bd9e;
 }
 
 input.datetimepicker[data-color="orange"]+.bootstrap-datetimepicker-widget table td.active>div,
@@ -2606,7 +2606,7 @@ input.datetimepicker[data-color="orange"]+.bootstrap-datetimepicker-widget table
 input.datetimepicker[data-color="orange"]+.bootstrap-datetimepicker-widget button[data-action],
 input.datetimepicker[data-color="orange"]+.bootstrap-datetimepicker-widget.dropdown-menu.top:after,
 input.datetimepicker[data-color="orange"]+.bootstrap-datetimepicker-widget.dropdown-menu.bottom:before {
-    color: #f96332;
+    color: #c0bd9e;
 }
 
 input.datetimepicker[data-color="blue"]+.bootstrap-datetimepicker-widget {
@@ -4931,7 +4931,7 @@ textarea.form-control:active {
 .pagination.pagination-neutral .page-item.active>.page-link:hover {
     background-color: #FFFFFF;
     border-color: #FFFFFF;
-    color: #f96332;
+    color: #c0bd9e;
 }
 
 .pagination-container {
@@ -5285,13 +5285,13 @@ body {
 .nav-pills.nav-pills-neutral .nav-item .nav-link.active:focus,
 .nav-pills.nav-pills-neutral .nav-item .nav-link.active:hover {
     background-color: #FFFFFF;
-    color: #f96332;
+    color: #c0bd9e;
 }
 
 .nav-pills.nav-pills-primary .nav-item .nav-link.active,
 .nav-pills.nav-pills-primary .nav-item .nav-link.active:focus,
 .nav-pills.nav-pills-primary .nav-item .nav-link.active:hover {
-    background-color: #f96332;
+    background-color: #c0bd9e;
 }
 
 .nav-pills.nav-pills-info .nav-item .nav-link.active,
@@ -5388,7 +5388,7 @@ body {
 }
 
 .nav-tabs.nav-tabs-primary>.nav-item>.nav-link.active {
-    background-color: #f96332;
+    background-color: #c0bd9e;
 }
 
 .nav-tabs.nav-tabs-info>.nav-item>.nav-link.active {
@@ -5584,7 +5584,7 @@ body {
 }
 
 .bg-primary {
-    background-color: #f96332 !important;
+    background-color: #c0bd9e !important;
 }
 
 .bg-info {
@@ -8159,7 +8159,7 @@ Created using IcoMoon - icomoon.io
 .card-collapse .card .card-header a[data-toggle="collapse"] i {
     float: right;
     position: relative;
-    color: #f96332;
+    color: #c0bd9e;
     top: 1px;
     -webkit-transition: all 300ms ease 0s;
     -moz-transition: all 300ms ease 0s;
@@ -8209,7 +8209,7 @@ Created using IcoMoon - icomoon.io
 }
 
 .card[data-background-color="orange"] {
-    background-color: #f96332;
+    background-color: #c0bd9e;
 }
 
 .card[data-background-color="red"] {
@@ -8409,6 +8409,17 @@ Created using IcoMoon - icomoon.io
     text-align: center;
 }
 
+.card-plain {
+    background-position: center center;
+    background-size: cover;
+    text-align: center;
+    z-index: 2;
+    max-width: 530px;
+    margin: 0 auto;
+    padding-top: 90px;
+    padding-bottom: 20px;
+}
+
 .card-background .card-body {
     position: relative;
     z-index: 2;
@@ -8437,7 +8448,7 @@ Created using IcoMoon - icomoon.io
     padding-top: 100px;
 }
 
-.card-background .card-body4 {
+.card-body4 {
     position: relative;
     z-index: 2;
     min-height: 300px;
@@ -8507,6 +8518,7 @@ Created using IcoMoon - icomoon.io
     background-color: rgba(0, 0, 0, 0.63);
     border-radius: 0.25rem;
 }
+
 .card-pricing {
     text-align: center;
 }
@@ -8814,11 +8826,6 @@ Created using IcoMoon - icomoon.io
     border-right-color: #fff;
     left: auto;
     border-left: none;
-}
-
-.card-plain {
-    background: transparent;
-    box-shadow: none;
 }
 
 .card-plain .card-body,
@@ -9778,13 +9785,13 @@ Created using IcoMoon - icomoon.io
 .page-header[filter-color="orange"] {
     background: rgba(44, 44, 44, 0.2);
     /* For browsers that do not support gradients */
-    background: -webkit-linear-gradient(90deg, rgba(44, 44, 44, 0.2), rgba(224, 23, 3, 0.6));
+    background: -webkit-linear-gradient(90deg, rgba(44, 44, 44, 0.2), #c0bd9e);
     /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(90deg, rgba(44, 44, 44, 0.2), rgba(224, 23, 3, 0.6));
+    background: -o-linear-gradient(90deg, rgba(44, 44, 44, 0.2), #c0bd9e);
     /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(90deg, rgba(44, 44, 44, 0.2), rgba(224, 23, 3, 0.6));
+    background: -moz-linear-gradient(90deg, rgba(44, 44, 44, 0.2), #c0bd9e);
     /* For Firefox 3.6 to 15 */
-    background: linear-gradient(0deg, rgba(44, 44, 44, 0.2), rgba(224, 23, 3, 0.6));
+    background: linear-gradient(0deg, rgba(44, 44, 44, 0.2), #c0bd9e);
     /* Standard syntax */
 }
 
@@ -10985,11 +10992,11 @@ Created using IcoMoon - icomoon.io
         background: linear-gradient(#18ce0f 0%, #000 80%);
     }
     .navbar-collapse[data-color="orange"]:after {
-        background: #f96332;
-        background: -webkit-linear-gradient(#f96332 0%, #000 80%);
-        background: -o-linear-gradient(#f96332 0%, #000 80%);
-        background: -moz-linear-gradient(#f96332 0%, #000 80%);
-        background: linear-gradient(#f96332 0%, #000 80%);
+        background: #c0bd9e;
+        background: -webkit-linear-gradient(#c0bd9e 0%, #000 80%);
+        background: -o-linear-gradient(#c0bd9e 0%, #000 80%);
+        background: -moz-linear-gradient(#c0bd9e 0%, #000 80%);
+        background: linear-gradient(#c0bd9e 0%, #000 80%);
     }
     .navbar-collapse[data-color="red"]:after {
         background: #FF3636;
@@ -11558,11 +11565,11 @@ Created using IcoMoon - icomoon.io
         background: linear-gradient(#18ce0f 0%, #000 80%);
     }
     .burger-menu .navbar-collapse[data-color="orange"]:after {
-        background: #f96332;
-        background: -webkit-linear-gradient(#f96332 0%, #000 80%);
-        background: -o-linear-gradient(#f96332 0%, #000 80%);
-        background: -moz-linear-gradient(#f96332 0%, #000 80%);
-        background: linear-gradient(#f96332 0%, #000 80%);
+        background: #c0bd9e;
+        background: -webkit-linear-gradient(#c0bd9e 0%, #000 80%);
+        background: -o-linear-gradient(#c0bd9e 0%, #000 80%);
+        background: -moz-linear-gradient(#c0bd9e 0%, #000 80%);
+        background: linear-gradient(#c0bd9e 0%, #000 80%);
     }
     .burger-menu .navbar-collapse[data-color="red"]:after {
         background: #FF3636;
