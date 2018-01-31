@@ -9776,6 +9776,7 @@ Created using IcoMoon - icomoon.io
     left: 0;
     top: 0;
     content: "";
+    background-color: rgba(0, 0, 0, 0.425)
 }
 
 .page-header:before {
