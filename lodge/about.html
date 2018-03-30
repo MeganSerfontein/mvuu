@@ -6,7 +6,7 @@
     <link rel="apple-touch-icon" sizes="76x76" href="../assets/img/apple-icon.png">
     <link rel="icon" type="image/png" href="../assets/img/favicon.png">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-    <title>Mvuu Lodge | Contact Us </title>
+    <title>Mvuu Lodge | About Us</title>
     <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no' name='viewport' />
     <!--     Fonts and icons     -->
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,200" rel="stylesheet" />
@@ -16,9 +16,11 @@
     <link href="../assets/css/now-ui-kit.css?v=1.1.0" rel="stylesheet" />
     <!-- CSS Just for demo purpose, don't include it in your project -->
     <link href="../assets/css/demo.css" rel="stylesheet" />
+    <link rel="stylesheet" href="../owlcarousel/owl.carousel.min.css">
+    <link rel="stylesheet" href="../owlcarousel/owl.theme.default.min.css">
 </head>
 
-<body class="about-page">
+<body class="pricing">
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg bg-white fixed-top navbar-transparent" color-on-scroll="100">
         <div class="container">
@@ -52,22 +54,22 @@
                             <p>Activities</p>
                         </a>
                         <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
-                            <a class="dropdown-item" href="../lodge/activities.html#activities">
+                            <a class="dropdown-item page-scroll" href="../lodge/activities.html#fishing">
                                 <i class="now-ui-icons shopping_box"></i> Fishing
                             </a>
-                            <a class="dropdown-item" href="../lodge/activities.html#canoe">
+                            <a class="dropdown-item page-scroll" href="../lodge/activities.html#canoe">
                                 <i class="now-ui-icons ui-2_settings-90"></i> Canoeing
                             </a>
-                            <a class="dropdown-item" href="../lodge/activities.html#game">
+                            <a class="dropdown-item page-scroll" href="../lodge/activities.html#game">
                                 <i class="now-ui-icons text_align-left"></i> Game Viewing
                             </a>
-                            <a class="dropdown-item" href="../lodge/activities.html#bird">
+                            <a class="dropdown-item page-scroll" href="../lodge/activities.html#bird">
                                 <i class="now-ui-icons sport_user-run"></i> Bird Watching
                             </a>
-                            <a class="dropdown-item" href="../lodge/activities.html#cruise">
+                            <a class="dropdown-item page-scroll" href="../lodge/activities.html#cruise">
                                 <i class="now-ui-icons education_paper"></i> River Cruises
                             </a>
-                            <a class="dropdown-item" href="../lodge/activities.html#photographic">
+                            <a class="dropdown-item page-scroll" href="../lodge/activities.html#photographic">
                                 <i class="now-ui-icons education_paper"></i> Photographic Safari's
                             </a>
                         </div>
@@ -113,135 +115,197 @@
     </nav>
     <!-- End Navbar -->
     <div class="wrapper">
-         <div class="page-header page-header-small">
-            <div class="page-header-image" style="background-image:  url('../assets/img/sunsets/mvuu (93 of 181).jpg'); position: fixed;">
+        <div id="activities" class="page-header page-header-small">
+            <div class="page-header-image" style="background-image:  url('../assets/img/wildlife/Mvuu Wildlife-37.jpg'); position: fixed; background-position: center;">
             </div>
             <div class="content-center">
                     <div class="row">
                         <div class="col-md-8 ml-auto mr-auto">
-                            <h1 class="title">Contact Us</h1>
+                            <h1 class="title">About Us</h1>
+                            <!--<h4>Explore and Enjoy</h4>-->
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="section section-cards" data-background-color="gray">
-            <div class="section-space"></div>
-            <div class="row text-center">
-                <div class="col-md-8 ml-auto mr-auto">
-                        <div id="map1" class="card3"></div>
+        <div class="section" data-background-color="gray">
+            <div class="container text-center">
+                <div class="text-center">
+                    <div class="title">
+                        <h2>
+                           Activities
+                        </h2>
+                    </div>
                 </div>
-                <div class="col-md-4 ml-auto mr-auto">
-                    <div class="card3 card-pricing" data-background-color="taupe">
-                        <div class="card-body">
-                            <h3 class="card-title">Contact Details</h3>
-                            <ul>
-                                <li><i class="now-ui-icons ui-1_check text-primary"></i> Bookings - +27 79 524 8709</li>
-                                <li><i class="now-ui-icons ui-1_check text-primary"></i> Lodge - +260 96 636 3762</li>
-                                <li><i class="now-ui-icons ui-1_check text-primary"></i> Lynne - +260 96 687 6534</li>
-                                <li><i class="now-ui-icons ui-1_check text-primary"></i> Email: info@mvuulodge.com</li>
-                            </ul>
-                            <div class="col-5 ml-auto mr-auto">
-                                <button type="button" class="btn btn-primary btn-round btn-block">Book Now</button>
+                <div>
+                    <div class="col-md-11 ml-auto mr-auto">
+                        <h5 class="description">Game drives, fishing, canoeing and river cruises. Mvuu has a variety of activities for the whole family.</h5>
+                    </div>
+                    <br>
+                </div>
+                <div class="row text-center">
+                        <div class="col-md-3 info2" style="max-width:500px">
+                            <div class="card card-plain card-background-product" style="background-image: url('../assets/img/fishing/Mvuu Fishing-24.jpg')">
+                                <div class="card-body4"></div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 info2" style="max-width:500px">
+                            <div class="card card-plain card-background-product" style="background-image: url('../assets/img/fishing/Mvuu Fishing-28.jpg')">
+                                <div class="card-body4"></div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 info2" style="max-width:500px">
+                            <div class="card card-plain card-background-product" style="background-image: url('../assets/img/fishing/Mvuu Fishing-26.jpg')">
+                                <div class="card-body4"></div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 info2" style="max-width:500px">
+                            <div class="card card-plain card-background-product" style="background-image: url('../assets/img/fishing/Mvuu Fishing-16.jpg')">
+                                <div class="card-body4"></div>
+                            </div>
+                        </div>
+                </div>
+            </div>
+        </div>
+        <div class="section" data-background-color="gray">
+            <div class="container text-center">
+                <div class="text-center">
+                    <div class="title">
+                        <h2>
+                           Around the Lodge
+                        </h2>
+                    </div>
+                </div>
+                <div>
+                    <div class="col-md-11 ml-auto mr-auto">
+                        <h5 class="description">Friendly staff, great food, bar area, swimming pool all in a magnificent setting overlooking the Zambezi river</h5>
+                    </div>
+                    <br>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row text-center">
+                        <div class="col-md-6 info2" style="max-width:500px">
+                            <div class="card card-plain card-background-product" style="background-image: url('../assets/img/canoe/Mvuu Fishing-9.jpg')">
+                                <div class="card-body4"></div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 info2" style="max-width:500px">
+                            <div class="card card-plain card-background-product" style="background-image: url('../assets/img/canoe/Mvuu Fishing-27.jpg')">
+                                <div class="card-body4"></div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="section section-cards" data-background-color="gray">
-            <div class="col-md-10 ml-auto mr-auto text-center">
-                <div class="title" style="margin-top: -40px">
-                    <h3>
-                        Getting to Mvuu
-                    </h3>
-                </div>
-                <!-- Nav tabs -->
-                <div class="card">
-                    <div class="card-header">
-                        <ul class="nav nav-tabs justify-content-center" role="tablist">
-                            <li class="nav-item">
-                                <a class="nav-link active" data-toggle="tab" href="#fly" role="tab">
-                                    <i class="now-ui-icons objects_umbrella-13"></i> Fly
-                                </a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" data-toggle="tab" href="#drive" role="tab">
-                                    <i class="now-ui-icons shopping_shop"></i>Drive
-                                </a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" data-toggle="tab" href="#boat" role="tab">
-                                    <i class="now-ui-icons shopping_cart-simple"></i>Boat
-                                </a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" data-toggle="tab" href="#lusaka" role="tab">
-                                    <i class="now-ui-icons shopping_shop"></i>From/To Lusaka
-                                </a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" data-toggle="tab" href="#livingstone" role="tab">
-                                    <i class="now-ui-icons shopping_shop"></i>From/To Livingstone
-                                </a>
-                            </li>
-                        </ul>
+        <div class="section" data-background-color="taupe">
+            <div class="container text-center">
+                <div class="text-center">
+                    <div class="title">
+                        <h2>
+                           Chalets & Camping
+                        </h2>
                     </div>
-                    <div class="card-body">
-                    <!-- Tab panes -->
-                        <div class="tab-content text-center">
-                            <div class="tab-pane active" id="fly" role="tabpanel">
-                                <div class="card-container2">
-                                    <div class="card card-fashion2">
-                                        <h4 class="card-title" style="font-size: 1em">
-                                            <p>International flight into Zambia (Lusaka, Livingstone or Mfuwe) and a charter flight (Proflight) who offer scheduled and charter flights to Royal Air Strip.</p>
-                                            <br>
-                                            <p>Royal is a tar air strip which is used by the surrounding lodges and is only a 30 min scenic transfer game drive through the Chiawa Game Management area to the lodge.</p>
-                                        </h4>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="tab-pane" id="drive" role="tabpanel">
-                                <div class="card-container2">
-                                    <div class="card card-fashion2">
-                                        <h4 class="card-title" style="font-size: 1em">
-                                            <p>From Lusaka we can arrange a road transfer to Mvuu Lodge, please enquire for costs and more details. Alternatively you can hire a vehicle and explore the road on your own. From Lusaka it is a 2 hour drive to Chirundu (a border town on the Zambezi River) and another 2 hours to Mvuu on a dirt road . Only a high clearance vehicle and 4x4’s are suitable for this road. </p>
-                                            <p>For the more adventurous there is the Leopard Hills road from Lusaka to Mvuu Lodge. This road is definitely for 4x4 only and if possible its best to travel in convoy. It is a spectacular and breathtaking road through the Zambezi Escarpment down to the Lower Zambezi Valley. Please be sure to notify the Lodge if you intend on using this road in case of emergencies.</p>
-                                        </h4>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="tab-pane" id="boat" role="tabpanel">
-                                <div class="card-container2">
-                                    <div class="card card-fashion2">
-                                        <div class="section-space"></div>
-                                        <h4 class="card-title" style="font-size: 1em">
-                                            <p>If you prefer a more relaxed transfer we can meet you at Gwabi where you can leave your vehicle and relax on our boat all the way to the lodge. This scenic transfer takes about 1h 15min. Please enquire for costs and other details.</p>
-                                        </h4>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="tab-pane" id="lusaka" role="tabpanel">
-                                <div class="card-container2">
-                                    <div class="card card-fashion2">
-                                        <div class="section-space"></div>
-                                        <h4 class="card-title" style="font-size: 1em">
-                                            <p>With a charter flight it takes about ½ hour from Lusaka to Royal air strip. By car it takes about 2 hours to the border town of Chirundu (130 km) and another 2 ½ hours to Mvuu.</p>
-                                        </h4>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="tab-pane" id="livingstone" role="tabpanel">
-                                <div class="card-container2">
-                                    <div class="card card-fashion2">
-                                        <div class="section-space"></div>
-                                        <h4 class="card-title" style="font-size: 1em">
-                                            <p>With a charter flight it takes about 2 hours from Livingstone to Royal air strip. By car it takes about 7 hours to Chirundu (496 km) plus another 2 ½ hrs to Mvuu</p>
-                                        </h4>
-                                    </div>
-                                </div>
+                </div>
+                <div>
+                    <div class="col-md-11 ml-auto mr-auto">
+                        <h5 class="description">Stone and thatch cottages, luxury safari tents, self catering cottages/tents and our famous camp sites ensure quality accommodation for all budgets. </h5>
+                    </div>
+                    <br>
+                </div>
+                <div class="row text-center">
+                        <div class="col-md-4 info2" style="max-width:500px">
+                            <div class="card card-plain card-background-product" style="background-image: url('../assets/img/wildlife/Mvuu Wildlife-88.jpg')">
+                                <div class="card-body4"></div>
                             </div>
                         </div>
+                        <div class="col-md-4 info2" style="max-width:500px">
+                            <div class="card card-plain card-background-product" style="background-image: url('../assets/img/wildlife/Mvuu Wildlife-64.jpg')">
+                                <div class="card-body4"></div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 info2" style="max-width:500px">
+                            <div class="card card-plain card-background-product" style="background-image: url('../assets/img/wildlife/Mvuu Wildlife-38.jpg')">
+                                <div class="card-body4"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section" data-background-color="gray">
+            <div class="container text-center">
+                <div class="text-center">
+                    <div class="title">
+                        <h2>
+                           Wildlife
+                        </h2>
+                    </div>
+                </div>
+                <div>
+                    <div class="col-md-11 ml-auto mr-auto">
+                        <h5 class="description">The area around Mvuu abounds with wildlife.  From elephants in camp, predators roaming the area to superb birding and butterflies. An adventure is around every corner.</h5>
+                    </div>
+                    <br>
+                </div>
+            </div>
+            <div class="owl-carousel owl-theme">
+                    <div class="item"><img src="../assets/img/birds/Mvuu Birds-8.jpg"></div>
+                    <div class="item"><img src="../assets/img/birds/Mvuu Birds-16.jpg"></div>
+                    <div class="item"><img src="../assets/img/birds/Mvuu Birds-2 copy.jpg"></div>
+                    <div class="item"><img src="../assets/img/birds/Mvuu Birds.jpg"></div>  
+                    <div class="item"><img src="../assets/img/birds/Mvuu Birds-10.jpg"></div>
+                    <div class="item"><img src="../assets/img/birds/Mvuu Birds-18.jpg"></div>  
+                    <div class="item"><img src="../assets/img/birds/Mvuu Birds-14.jpg"></div>
+            </div>
+        </div>
+        <div class="section" data-background-color="gray">
+            <div class="container text-center">
+                <div class="text-center">
+                    <div class="title">
+                        <h2>
+                           The Zambezi River
+                        </h2>
+                    </div>
+                </div>
+                <div>
+                    <div class="col-md-11 ml-auto mr-auto">
+                        <h5 class="description">Situated on a pristine stretch of the Zambezi river with a backdrop of the Zambezi escarpment, a view over Mana pools and spectacular sunsets and sunrises. The river doesn’t get much better than this.</h5>
+                    </div>
+                    <br>
+                </div>
+                <div class="row text-center">
+                        <div class="col-md-4 info2" style="max-width:500px">
+                            <div class="card card-plain card-background-product" style="background-image: url('../assets/img/fishing/Mvuu Fishing-13.jpg')">
+                                <div class="card-body4"></div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 info2" style="max-width:500px">
+                            <div class="card card-plain card-background-product" style="background-image: url('../assets/img/sunsets/mvuu zambezi-6.jpg')">
+                                <div class="card-body4"></div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 info2" style="max-width:500px">
+                            <div class="card card-plain card-background-product" style="background-image: url('../assets/img/fishing/Mvuu Fishing-12.jpg')">
+                                <div class="card-body4"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="subscribe-line subscribe-line-image" style="background-color:rgba(0, 0, 0, 0.4)">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 ml-auto mr-auto">
+                        <div class="text-center">
+                            <h4 class="title">Make a Booking</h4>
+                        </div>
+                        <div class="col-5 ml-auto mr-auto">
+                            <button type="button" class="btn btn-primary btn-round btn-block">Book Now</button>
+                        </div>
+                        <div class="section-space"></div>
                     </div>
                 </div>
             </div>
@@ -327,9 +391,20 @@
 <script src="../assets/js/plugins/bootstrap-datetimepicker.min.js"></script>
 <!-- Control Center for Now Ui Kit: parallax effects, scripts for the example pages etc -->
 <script src="../assets/js/now-ui-kit.js?v=1.1.0"></script>
-<script src="../assets/js/map.js"></script>
-<script async defer
-    src ="https://maps.googleapis.com/maps/api/js?key=AIzaSyAZzeHhs-8JZ7i18MjFuM35dJHq70n3Hx4&callback=initialize">
+<script src="../owlcarousel/owl.carousel.min.js"></script>
+<script>
+    $(document).ready(function(){
+        $(".owl-carousel").owlCarousel();
+        });
+        var owl = $('.owl-carousel');
+        owl.owlCarousel({
+            items:3,
+            loop:true,
+            center:true,
+            margin:10,
+            autoplay:true,
+            autoplayTimeout:3000,
+            autoplayHoverPause:true
+        });
 </script>
-
 </html>
