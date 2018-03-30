@@ -1596,3 +1596,11 @@
     -webkit-animation-name: Floatingx;
     -moz-animation-name: Floatingx;
 }
+
+.about-carousel .item {
+    height: 400px;
+    -webkit-background-size: cover; 
+    -moz-background-size: cover; 
+    -o-background-size: cover; 
+    background-size: cover;
+}
