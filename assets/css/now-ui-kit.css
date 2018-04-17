@@ -5065,6 +5065,18 @@ p {
     font-weight: 300;
 }
 
+.tents{
+    font-size: .9em;
+}
+
+.offer{
+    font-size: 1.3em;
+}
+
+.tiger{
+    font-size: 1.3em;
+}
+
 .category {
     text-transform: capitalize;
     font-weight: 700;
@@ -8409,6 +8421,20 @@ Created using IcoMoon - icomoon.io
     text-align: center;
 }
 
+.card-left {
+    float: left;
+}
+
+.card-right {
+    float: right;
+    min-height: 400px;
+    border-radius: 0;
+    box-shadow: none;
+    margin: 0;
+    display: block;
+    padding-bottom: 30px;
+}
+
 .card-plain {
     background-position: center center;
     background-size: cover;
@@ -8752,12 +8778,9 @@ Created using IcoMoon - icomoon.io
     margin: 0;
     display: block;
     padding-bottom: 30px;
+    color: #555555;
 }
 
-.card-container .card-fashion {
-    width: 50%;
-    float: left;
-}
 .card-container2 .card-fashion {
     width: 100%;
     float: left;
@@ -8771,6 +8794,7 @@ Created using IcoMoon - icomoon.io
     transform: translate(-50%, -50%);
     text-align: center;
     width: 85%;
+    color: #555555;
 }
 
 .card-fashion h4 {
@@ -12126,7 +12150,7 @@ Created using IcoMoon - icomoon.io
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 500px) {
     .image-container.image-left {
         margin-bottom: 260px;
     }
@@ -12160,10 +12184,10 @@ Created using IcoMoon - icomoon.io
     }
     .nav-tabs {
         display: inline-block;
-        width: 100%;
-        padding-left: 100px;
-        padding-right: 100px;
+        padding-left: 10px;
+        padding-right: 10px;
         text-align: center;
+        font-size: 5px;
     }
     .nav-tabs .nav-item>.nav-link {
         margin-bottom: 5px;
@@ -12279,6 +12303,42 @@ Created using IcoMoon - icomoon.io
     }
 }
 
+@media screen and (max-width: 850px) {
+    .alert .alert-icon {
+        margin-top: 10px;
+    }
+
+    .section {
+        padding: 10px 10px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .section {
+        padding: 5px 5px;
+    }
+}
+@media screen and (max-width: 1200px) {
+    .offer {
+        font-size: 1.1em;
+        width: 100%;
+    }
+    .tents {
+        font-size: 0.8em;
+        width: 100%;
+    }
+
+    .tiger{
+        font-size:.8em;
+    }
+    .card-fashion2 {
+        font-size: 1.1em;
+        width: 100%;
+    }
+
+}
+
+
 @media screen and (min-width: 1200px) {
     .section-images .hero-images-container-1 {
         top: 51%;
@@ -12295,6 +12355,33 @@ Created using IcoMoon - icomoon.io
 		height: 100vh;
 		position: absolute;
 		z-index: 0;
-	}
+    }
+@media (max-width: 720px) {
+    .card-left {
+        width: 100%;
+        float: none;
+    }
+
+    .card-right {
+        width: 100%;
+        float: none;
+    }
+    .section {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+}
+
+@media (max-width: 500px) {
+    .nav-tabs {
+        padding-left: 5px !important;
+        padding-right: 5px !important;
+    }
+
+    .card-title {
+        margin-top: 55px !important;
+    }
+}
+}
 }
 }

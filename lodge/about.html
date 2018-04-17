@@ -455,14 +455,22 @@
         });
         var owl = $('.owl-carousel');
         owl.owlCarousel({
-            items:3,
+            items:1,
             loop:true,
             center:true,
             margin:10,
             autoplay:true,
             autoHeight: false,
             autoplayTimeout:3000,
-            autoplayHoverPause:true
+            autoplayHoverPause:true,
+            responsive: {
+                800:{
+                    items:2
+                },
+                1200: {
+                    items:3
+                },
+            }
         });
 </script>
 </html>
