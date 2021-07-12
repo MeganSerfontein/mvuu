@@ -15,6 +15,7 @@
  * @todo Test Zepto
  * @todo stagePadding calculate wrong active classes
  */
+
 ;(function($, window, document, undefined) {
 
 	/**
@@ -1174,8 +1175,8 @@
 		if (factor === 0) {
 			return 0;
 		}
-
-		return Math.min(Math.max(Math.abs(to - from), 1), 6) * Math.abs((factor || this.settings.smartSpeed));
+			// was return Math.min(Math.max(Math.abs(to - from), 1), 26 * Math.abs((factor || 
+		return Math.min(Math.max(Math.abs(to - from), 1), 2) * Math.abs((factor || this.settings.smartSpeed));
 	};
 
 	/**
